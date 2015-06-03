@@ -8,8 +8,11 @@
 originalBitmap = ImageLoader.getInstance().loadImageSync(originalUri.toString());
 contentRichEditText.addImage(originalBitmap,	getAbsoluteImagePath(originalUri));
 ```
-* 获取富文本的内容可以调用`getRichText`也可以调用`getText().toString`。
+* 获取富文本的内容可以调用`getRichText`也可以调用`getText().toString`
+
 #####其他功能
-有时候我们可能需要对已经保存的文本进行编辑，那么就可以调用`setRichEditText(content)`，content中的图片路径可以是本地路径，也可以是网路路径，但是一定要是`<img src="path"/>`的格式。
-#####详细的使用方法，可以参考`sample`下面的`Demo`，下面是Demo的截图
+有时候我们可能需要对已经保存的文本进行编辑，那么就可以调用`setRichEditText(content)`，content中的图片路径可以是本地路径，也可以是网路路径，但是一定要是`<img src="path"/>`的格式.
+
+#####例子
+详细使用方法可以参照`sample`下的例子，下面是例子的截图
 
