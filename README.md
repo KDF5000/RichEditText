@@ -15,4 +15,9 @@ contentRichEditText.addImage(originalBitmap,	getAbsoluteImagePath(originalUri));
 
 #####例子
 详细使用方法可以参照`sample`下的例子，下面是例子的截图
-
+<p>
+<img src="https://raw.githubusercontent.com/KDF5000/RichEditText/master/screenshot/1.jpg" alt="1" width="200px" weight="100px" />
+<img src="https://raw.githubusercontent.com/KDF5000/RichEditText/master/screenshot/2.jpg" alt="2" width="200px" weight="100px" />
+<img src="https://raw.githubusercontent.com/KDF5000/RichEditText/master/screenshot/3.jpg" alt="3" width="200px" weight="100px" />
+<img src="https://raw.githubusercontent.com/KDF5000/RichEditText/master/screenshot/4.jpg" alt="4" width="200px" weight="100px" />
+<img src="https://raw.githubusercontent.com/KDF5000/RichEditText/master/screenshot/5.jpg" alt="5" width="200px" weight="100px" />
