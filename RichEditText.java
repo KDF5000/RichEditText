@@ -69,6 +69,7 @@ public class RichEditText extends EditText {
 			mEditable = this.getText(); // 获取edittext内容
 		}
 		int start = this.getSelectionStart(); // 设置欲添加的位置
+		start = start > mEditable.length() ? mEditable.length() : start;  // ensure not to get IndexOutOfBoundsException;
 		mEditable.insert(start, spanString); // 设置spanString要添加的位置
 		this.setText(mEditable);
 		this.setSelection(start, spanString.length());
